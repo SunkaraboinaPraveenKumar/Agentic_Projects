@@ -23,7 +23,7 @@ def generate_blog(topic):
     prompt=PromptTemplate(input_variables=['topic'],template=template)
 
     llm=ChatGroq(
-        model="qwen-2.5-32b",
+        model="llama-3.1-8b-instant",
         api_key=GROQ_API_KEY   
     )
 
