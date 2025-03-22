@@ -1,0 +1,8 @@
+groq
+flask
+langchain
+beautifulsoup4
+scrapy
+streamlit
+langchain_groq
+python-dotenv
