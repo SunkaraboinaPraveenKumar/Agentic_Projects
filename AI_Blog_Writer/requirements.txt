@@ -6,3 +6,4 @@ scrapy
 streamlit
 langchain_groq
 python-dotenv
+gunicorn
