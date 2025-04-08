@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+Chat with AI Coach
+{% endblock %}
+
+{% block content %}
+<h1>Chat with Your AI Fitness Coach</h1>
+<div id="chat-container">
+    <div id="chat-history">
+        {% for message in chat_history %}
+            <div class="message {{ message.role }}">
+                <strong>{{ message.role.capitalize() }}:</strong> {{ message.text }}
+            </div>
+        {% endfor %}
+    </div>
+    <form method="POST" action="{{ url_for('chat') }}">
+        <textarea name="user_input" placeholder="Type your message here..." required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</div>
+{% endblock %}

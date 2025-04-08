@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+Workout Plan - AI Fitness Coach
+{% endblock %}
+
+{% block content %}
+<h1>Workout Plan for {{ user.name }}</h1>
+<p><strong>Fitness Level:</strong> {{ user.fitness_level }}</p>
+<p><strong>Goal:</strong> {{ user.goal }}</p>
+<p><strong>Available Equipment:</strong> {{ user.equipment }}</p>
+
+<h2>Your Personalized Workout Plan</h2>
+<div id="workout-plan">
+    <pre>{{ workout }}</pre>
+</div>
+
+<div class="button-container">
+    <a href="{{ url_for('workout') }}" class="btn">Generate Another Plan</a>
+    <a href="{{ url_for('home') }}" class="btn">Back to Home</a>
+</div>
+{% endblock %}

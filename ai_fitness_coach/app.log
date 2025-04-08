@@ -1,0 +1,108 @@
+2025-04-08 08:53:45,258 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 08:53:45,268 - ERROR - Workout generation failed: 'function' object has no attribute 'info'
+2025-04-08 08:54:27,314 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 08:54:27,321 - INFO - workout plan generated successfully
+2025-04-08 09:01:24,579 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 09:01:24,595 - INFO - AI Response: A 15-minute home workout can be a great way to get some exercise when you're short on time. There are many options to choose from, but I can suggest a few ideas. 
+
+One option is a bodyweight circuit workout. You can do 45 seconds of burpees, followed by 15 seconds of rest. Then, move on to 45 seconds of mountain climbers, followed by 15 seconds of rest. You can continue this pattern with other exercises like jump squats, plank hold, and lunges. 
+
+Another option is a HIIT (High-Intensity Interval Training) workout. For example, you can do 30 seconds of sprints in place, followed by 30 seconds of rest. Then, do 30 seconds of jumping jacks, followed by 30 seconds of rest. You can repeat this pattern for 15 minutes, incorporating different exercises like push-ups, squats, and lunges.
+
+If you prefer a more low-impact workout, you could try a yoga or Pilates routine. For example, you can start with some light cardio like marching in place or jogging in place for 2-3 minutes. Then, move on to some strength training exercises like squats, lunges, and leg raises. Finally, end with some stretching exercises like downward-facing dog, warrior pose, and tree pose.
+
+Which type of workout are you in the mood for today? Or would you like me to suggest some specific routines?
+2025-04-08 09:21:52,770 - INFO - Database initialized successfully!
+2025-04-08 09:33:29,930 - INFO - FASTAPI server ready.
+2025-04-08 09:37:16,273 - INFO - FASTAPI server ready.
+2025-04-08 09:37:32,466 - INFO - FASTAPI server ready.
+2025-04-08 09:37:41,842 - INFO - FASTAPI server ready.
+2025-04-08 09:39:03,806 - INFO - Added user: Praveen Kumar
+2025-04-08 09:40:01,565 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 09:40:01,581 - INFO - workout plan generated successfully
+2025-04-08 09:40:01,595 - INFO - Saved workout for User ID: 1
+2025-04-08 10:20:09,864 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.10.141:8000
+2025-04-08 10:20:09,864 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 10:20:09,867 - INFO -  * Restarting with stat
+2025-04-08 10:20:12,451 - WARNING -  * Debugger is active!
+2025-04-08 10:20:12,454 - INFO -  * Debugger PIN: 895-557-822
+2025-04-08 10:20:37,213 - INFO - 127.0.0.1 - - [08/Apr/2025 10:20:37] "GET / HTTP/1.1" 200 -
+2025-04-08 10:20:37,521 - INFO - 127.0.0.1 - - [08/Apr/2025 10:20:37] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-08 10:20:37,587 - INFO - 127.0.0.1 - - [08/Apr/2025 10:20:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-08 10:20:47,333 - INFO - 127.0.0.1 - - [08/Apr/2025 10:20:47] "GET /register HTTP/1.1" 200 -
+2025-04-08 10:20:47,683 - INFO - 127.0.0.1 - - [08/Apr/2025 10:20:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:21:12,942 - INFO - Added user: Praveen
+2025-04-08 10:21:12,944 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:12] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-08 10:21:13,287 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:13] "GET /workout?username=Praveen HTTP/1.1" 200 -
+2025-04-08 10:21:13,527 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:21:17,481 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:17] "[32mPOST /workout HTTP/1.1[0m" 302 -
+2025-04-08 10:21:21,414 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:21:21,431 - INFO - workout plan generated successfully
+2025-04-08 10:21:21,456 - INFO - Saved workout for User ID: 2
+2025-04-08 10:21:21,482 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:21] "GET /workout/result/Praveen HTTP/1.1" 200 -
+2025-04-08 10:21:21,534 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:21:33,475 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:33] "[35m[1mGET /chat HTTP/1.1[0m" 500 -
+2025-04-08 10:21:33,731 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:33] "GET /chat?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-08 10:21:33,893 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:33] "GET /chat?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-08 10:21:33,959 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:33] "GET /chat?__debugger__=yes&cmd=resource&f=console.png&s=xkCduYIS9JmyXBuRs1gT HTTP/1.1" 200 -
+2025-04-08 10:21:34,290 - INFO - 127.0.0.1 - - [08/Apr/2025 10:21:34] "GET /chat?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-08 10:22:17,691 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:17] "GET / HTTP/1.1" 200 -
+2025-04-08 10:22:18,037 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:22:20,334 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:20] "[35m[1mGET /chat HTTP/1.1[0m" 500 -
+2025-04-08 10:22:20,695 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:20] "[36mGET /chat?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-08 10:22:20,697 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:20] "[36mGET /chat?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-08 10:22:20,958 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:20] "[36mGET /chat?__debugger__=yes&cmd=resource&f=console.png&s=xkCduYIS9JmyXBuRs1gT HTTP/1.1[0m" 304 -
+2025-04-08 10:22:31,654 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:31] "GET /workout HTTP/1.1" 200 -
+2025-04-08 10:22:32,026 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:22:33,422 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:33] "GET /register HTTP/1.1" 200 -
+2025-04-08 10:22:33,785 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:22:35,108 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:35] "GET / HTTP/1.1" 200 -
+2025-04-08 10:22:35,480 - INFO - 127.0.0.1 - - [08/Apr/2025 10:22:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:23:07,164 - INFO -  * Detected change in 'C:\\Users\\sunka\\Downloads\\AI_Agentic\\ai_fitness_coach\\app.py', reloading
+2025-04-08 10:23:07,451 - INFO -  * Restarting with stat
+2025-04-08 10:23:10,048 - WARNING -  * Debugger is active!
+2025-04-08 10:23:10,051 - INFO -  * Debugger PIN: 895-557-822
+2025-04-08 10:25:49,121 - INFO - 127.0.0.1 - - [08/Apr/2025 10:25:49] "GET /chat HTTP/1.1" 200 -
+2025-04-08 10:25:49,414 - INFO - 127.0.0.1 - - [08/Apr/2025 10:25:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:25:56,034 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:25:56,046 - INFO - AI Response: Hello. It's lovely to chat with you. I've been trained on a vast amount of text data, including but not limited to, books, articles, and conversations, which allows me to generate human-like responses. My training data is based on a snapshot of the internet from 2021, so I might not be aware of very recent events or developments. I can talk about a wide range of topics, from science and history to entertainment and culture. What would you like to talk about today? Perhaps we could discuss a fascinating topic like the discovery of exoplanets, or the history of a particular country, like Japan, which has a rich cultural heritage dating back to the 1st century AD. Let me know, and I'll do my best to provide you with interesting and accurate information.
+2025-04-08 10:25:56,047 - INFO - 127.0.0.1 - - [08/Apr/2025 10:25:56] "POST /chat HTTP/1.1" 200 -
+2025-04-08 10:25:56,392 - INFO - 127.0.0.1 - - [08/Apr/2025 10:25:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:26:04,511 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:04] "GET / HTTP/1.1" 200 -
+2025-04-08 10:26:04,868 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:26:35,168 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:35] "GET /register HTTP/1.1" 200 -
+2025-04-08 10:26:35,541 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:26:38,007 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:38] "GET /workout HTTP/1.1" 200 -
+2025-04-08 10:26:38,375 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:26:43,311 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:43] "[32mPOST /workout HTTP/1.1[0m" 302 -
+2025-04-08 10:26:47,170 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:26:47,172 - INFO - workout plan generated successfully
+2025-04-08 10:26:47,189 - INFO - Saved workout for User ID: 2
+2025-04-08 10:26:47,194 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:47] "GET /workout/result/Praveen HTTP/1.1" 200 -
+2025-04-08 10:26:47,253 - INFO - 127.0.0.1 - - [08/Apr/2025 10:26:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:31:06,705 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:31:06,709 - INFO - workout plan generated successfully
+2025-04-08 10:31:06,728 - INFO - Saved workout for User ID: 2
+2025-04-08 10:31:06,755 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:06] "GET /workout/result/Praveen HTTP/1.1" 200 -
+2025-04-08 10:31:06,794 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:06] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-08 10:31:13,752 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:13] "GET / HTTP/1.1" 200 -
+2025-04-08 10:31:14,016 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:31:17,767 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:17] "GET /chat HTTP/1.1" 200 -
+2025-04-08 10:31:18,123 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:31:42,811 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:31:42,814 - INFO - AI Response: I'd be delighted to act as your fitness coach. I've been trained on a vast amount of information related to fitness, including exercise routines, nutrition, and wellness. I can provide you with personalized advice and guidance to help you achieve your fitness goals.
+
+To get started, could you please tell me a bit about your current fitness level and what you're hoping to achieve? Are you a beginner looking to start a new exercise routine, or are you more advanced and looking to improve your performance in a specific area, such as running or weightlifting?
+
+Also, what type of exercises are you interested in? For example, do you prefer cardio-based activities like cycling or swimming, or do you enjoy strength training with free weights or machines? I can provide you with a wide range of workout routines and exercises to choose from, including ones that target specific muscle groups, such as the legs, chest, or back.
+
+In terms of nutrition, I can also offer advice on healthy eating habits and meal planning. I've been trained on information from reputable sources like the American Council on Exercise (ACE) and the National Academy of Sports Medicine (NASM), so you can be sure that the advice I provide is based on the latest scientific research and guidelines.
+
+Some specific topics we could discuss include the benefits of high-intensity interval training (HIIT), the importance of proper warm-up and cool-down routines, and the role of nutrition in supporting muscle growth and recovery. Let me know what's on your mind, and I'll do my best to provide you with helpful and informative guidance.
+2025-04-08 10:31:42,817 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:42] "POST /chat HTTP/1.1" 200 -
+2025-04-08 10:31:43,168 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-08 10:31:49,942 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:49] "GET / HTTP/1.1" 200 -
+2025-04-08 10:31:50,280 - INFO - 127.0.0.1 - - [08/Apr/2025 10:31:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -

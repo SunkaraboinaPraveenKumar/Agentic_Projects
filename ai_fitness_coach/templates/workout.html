@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+Generate Workout - AI Fitness Coach
+{% endblock %}
+
+{% block content %}
+<h1>Generate Your Workout Plan</h1>
+<p>Enter your username to generate a personalized workout plan.</p>
+
+<form method="POST" action="{{ url_for('workout') }}">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <button type="submit">Generate Workout</button>
+</form>
+{% endblock %}

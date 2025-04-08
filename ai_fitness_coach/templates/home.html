@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home - AI Fitness Coach
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to AI Fitness Coach</h1>
+<p>Your personalized fitness journey starts here. Register, get tailored workout plans, and chat with your AI fitness coach!</p>
+
+<div class="home-links">
+    <a href="{{ url_for('register') }}" class="btn">Get Started</a>
+    <a href="{{ url_for('chat') }}" class="btn">Chat with Coach</a>
+</div>
+{% endblock %}
